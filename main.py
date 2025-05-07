@@ -371,5 +371,15 @@ t.begin_fill()
 t.circle(15)
 t.end_fill()
 
+round = input("Press Enter to Continue: ")
 
+t.clear()
+# Screen 6
+
+screen.bgcolor("DarkSlateGray1")
+t.pencolor("black")
+t.penup()
+t.goto(0, 0)
+t.pendown()
+t.write('The End!',font=("arial",50,"italic"),align="center")
 turtle.done()
